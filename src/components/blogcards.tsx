@@ -16,7 +16,7 @@ export default function BlogCard({ blog }: { blog: Blog }) {
       <article className="bg-[#0a0f0b] px-8 py-7 grid grid-cols-[1fr_auto] items-start gap-4 transition-colors duration-150 group-hover:bg-[#0f1a11] cursor-pointer">
         <div>
           <div className="flex items-center gap-3 mb-2">
-            <span className="text-[0.65rem] font-semibold tracking-[0.1em] uppercase text-green-400 bg-green-500/10 px-2.5 py-0.5 rounded">
+            <span className="text-[0.65rem] font-semibold tracking-widest uppercase text-green-400 bg-green-500/10 px-2.5 py-0.5 rounded">
               {blog.tag}
             </span>
             <span className="text-xs text-[#2a4a2e]">{blog.date}</span>

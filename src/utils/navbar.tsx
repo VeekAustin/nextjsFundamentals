@@ -14,7 +14,7 @@ const links = [
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-[#30363d] bg-[#0d1117]/85 backdrop-blur-xl">
-      <div className="mx-auto flex h-16 max-w-[1200px] items-center justify-between px-8">
+      <div className="mx-auto flex h-16 max-w-1200px items-center justify-between px-8">
 
         {/* Logo */}
         <Link href="/" className="flex items-center no-underline">

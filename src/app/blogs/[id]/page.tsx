@@ -52,7 +52,7 @@ export default function BlogDetailPage({ params }: { params: { id: string } }) {
       </div>
 
       <div className="mb-5 flex items-center gap-3">
-        <span className="rounded bg-[#238636]/10 px-2.5 py-0.5 text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#238636]">
+        <span className="rounded bg-[#238636]/10 px-2.5 py-0.5 text-[0.65rem] font-semibold uppercase tracking-widest text-[#238636]">
           {blog.tag}
         </span>
         <span className="text-xs text-[#484f58]">{blog.date}</span>
