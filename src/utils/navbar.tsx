@@ -13,17 +13,11 @@ const links = [
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-50 border-b border-[#30363d] bg-[#0d1117]/85 backdrop-blur-xl">
-      <div className="mx-auto flex h-16 max-w-1200px items-center justify-between px-8">
+    <header className="sticky top-0 z-50 border-b border-[#30363d] bg-[#0d1117]/85 ">
+      <div className="mx-auto flex max-w-1200px items-center justify-between px-8">
 
-        {/* Logo */}
-        <Link href="/" className="flex items-center no-underline">
-          <Image
-            src="/vercel.svg"
-            alt="logo"
-            width={100}
-            height={30}
-          />
+        <Link href="/" className="flex items-center gap-2">
+          <Image src="/vercel.svg" alt="logo" width={100} height={32}/>
         </Link>
 
         <nav className="flex gap-1">

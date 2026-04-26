@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const subLinks = [
   { href: "/services", label: "Overview" },
-  { href: "/services/web-development", label: "Web Development" },
+  { href: "/services/webdev", label: "Web Development" },
   { href: "/services/consulting", label: "Consulting" },
   { href: "/services/mentorship", label: "Mentorship" },
 ];
